@@ -12,8 +12,8 @@ var (
 		ClientSecret: "x7qFo8AudrLHEsDWm96Kwfu1xbYTiWbW",
 	}
 
-	code        = "TG-577d4cede4b08aeaf552a548-220303211"
-	redirectUrl = "https://dev.rocketcommerce.com"
+	code        = "your code"
+	redirectUrl = "redirect url"
 )
 
 //Test GetAuthUrl function
