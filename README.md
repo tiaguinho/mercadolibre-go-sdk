@@ -86,3 +86,7 @@ body, err := client.Delete("questions/123", params)
 ## Examples ##
 
 For more examples, check out ```methods_test.go``` file.
+
+## License ##
+
+[The MIT License (MIT) Copyright (c) 2013](http://opensource.org/licenses/MIT)
