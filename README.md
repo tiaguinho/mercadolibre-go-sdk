@@ -3,6 +3,8 @@ MercadoLibre's GO SDK
 
 This is unofficial GO SDK for MercadoLibre's Platform.
 
+(https://godoc.org/github.com/tiaguinho/mercadolibre-go-sdk?status.png)](https://godoc.org/github.com/tiaguinho/mercadolibre-go-sdk)
+
 ## How to install ##
 ```go
 go get github.com/tiaguinho/mercadolibre-go-sdk
