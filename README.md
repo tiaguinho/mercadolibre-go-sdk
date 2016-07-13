@@ -87,7 +87,7 @@ body, err := client.Delete("questions/123", params)
 
 ## Examples ##
 
-For more examples, check out ```methods_test.go``` file.
+For more examples, [check out this repository](https://github.com/tiaguinho/test-meli-go).
 
 ## License ##
 
