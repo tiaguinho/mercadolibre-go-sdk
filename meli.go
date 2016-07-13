@@ -28,19 +28,19 @@ type MLError struct {
 }
 
 //New
-func New(clientID int, clientSecret string) (client *Client) {
-	client.ClientID = clientID
-	client.ClientSecret = clientSecret
-
-	return
+func New(clientID int, clientSecret string) *Client {
+	return &Client{
+		ClientID:     clientID,
+		ClientSecret: clientSecret,
+	}
 }
 
 //NewWithAccessToken
-func NewWithAccessToken(clientID int, clientSecret, accessToken, refreshToken string) (client *Client) {
-	client.ClientID = clientID
-	client.ClientSecret = clientSecret
-	client.MLToken.AccessToken = accessToken
-	client.MLToken.RefreshToken = refreshToken
-
-	return
+func NewWithAccessToken(clientID int, clientSecret, accessToken, refreshToken string) *Client {
+	return &Client{
+		ClientID:             clientID,
+		ClientSecret:         clientSecret,
+		MLToken.AccessToken:  accessToken,
+		MLToken.RefreshToken: refreshToken,
+	}
 }
