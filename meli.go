@@ -38,9 +38,11 @@ func New(clientID int, clientSecret string) *Client {
 //NewWithAccessToken
 func NewWithAccessToken(clientID int, clientSecret, accessToken, refreshToken string) *Client {
 	return &Client{
-		ClientID:             clientID,
-		ClientSecret:         clientSecret,
-		MLToken.AccessToken:  accessToken,
-		MLToken.RefreshToken: refreshToken,
+		ClientID:     clientID,
+		ClientSecret: clientSecret,
+		MLToken: MLToken{
+			AccessToken:  accessToken,
+			RefreshToken: refreshToken,
+		},
 	}
 }
